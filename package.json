@@ -1,0 +1,16 @@
+{
+  "name": "website-creator",
+  "version": "1.0.0",
+  "description": "AI-powered website creation workflow using Claude Code, screenshots, and live preview",
+  "scripts": {
+    "screenshot": "node scripts/screenshot.js",
+    "extract": "node scripts/extract-content.js",
+    "serve": "node scripts/serve.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "playwright": "^1.58.2",
+    "ws": "^8.19.0"
+  }
+}
